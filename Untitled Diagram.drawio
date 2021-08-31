@@ -1,1 +1,162 @@
-<mxfile host="app.diagrams.net" modified="2021-08-31T03:30:20.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" version="14.6.12" etag="ci77jPUcyXoSfJUOVUcV" type="github"><diagram id="9uhrNaGmBDMQ4JzriSAf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-31T07:13:31.621Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="hKm-AlBh9xollzevdwxQ" version="14.6.12" type="github">
+  <diagram id="9uhrNaGmBDMQ4JzriSAf" name="Page-1">
+    <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-1" value="解析坐标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="676" y="170" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-2" value="IDQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-3" value="非IDQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="80" as="sourcePoint" />
+            <mxPoint x="260" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wLORGDT3qwKsgGzUfs9r-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="666" y="80" as="sourcePoint" />
+            <mxPoint x="754" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-6" value="poiid数量是否为1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-8" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="130" as="sourcePoint" />
+            <mxPoint x="135" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="135" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-14" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-8">
+          <mxGeometry x="0.5048" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-12" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="130" as="sourcePoint" />
+            <mxPoint x="370" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-13" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-12">
+          <mxGeometry x="0.5672" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-15" value="&lt;span&gt;参数校验&lt;/span&gt;&lt;br&gt;&lt;span&gt;sndt_unify == 1&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-18" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="134.5" y="240" as="sourcePoint" />
+            <mxPoint x="135" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-24" value="typecode是否是060100|060101|060102|060103" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="300" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-25" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="134.5" y="440" as="sourcePoint" />
+            <mxPoint x="135" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-27" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-25">
+          <mxGeometry x="-0.2415" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-26" value="结果中增加&amp;lt;zoom&amp;gt;&amp;lt;level&amp;gt;16&amp;lt;/level&amp;gt;&amp;lt;/zoom&amp;gt;&lt;br&gt;&amp;lt;center&amp;gt;x,y&amp;lt;/center&amp;gt;&lt;br&gt;&amp;nbsp;x和y来源 : poiid的opendi数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="490" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-28" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-31" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-28">
+          <mxGeometry x="0.1862" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-29" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="210" as="sourcePoint" />
+            <mxPoint x="370" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-30" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-29">
+          <mxGeometry x="-0.0625" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wLORGDT3qwKsgGzUfs9r-32" target="wLORGDT3qwKsgGzUfs9r-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-32" value="解析坐标:&lt;br&gt;1.是否有geo的结果 (取里面的x和y加入到坐标集合)&lt;br&gt;2.如果是rqbxy的请求，则将url串中的x,y加入到坐标集合&lt;br&gt;3.遍历poiid列表，如果里面强展现的点，则只取强展现的poiid点的坐标加入到坐标集合，如果没有强展现，则将所有的poiid点的坐标加入到集合,poiid坐标取值方法 : 优先取opendi里面的display_x和display_y，如果这两个没有则取opendi里面的x和y&lt;br&gt;4.子点坐标：(如果是强展现，则取第一个强展现poiiid，如果没有强展现，则默认取第一个poiid点)&lt;br&gt;&amp;nbsp;的typecode和他下面的所有子点的坐标，子点的坐标加入到集合，typecode后面用于查找鲁班的比例尺&lt;br&gt;5.shape坐标 : (如果是强展现，则取第一个强展现poiiid，如果没有强展现，则默认取第一个poiid点)的opendi中的shape字段，并将里面的坐标解析加入到坐标集合中&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446" y="210" width="230" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-33" value="" style="endArrow=classic;html=1;entryX=0.004;entryY=0.635;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wLORGDT3qwKsgGzUfs9r-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="520" as="sourcePoint" />
+            <mxPoint x="270" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-36" value="如果坐标集合的点数量 &amp;gt; 1或者(如果点数量=1并且这个点是geo的结果)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="570" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-38" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="650" as="sourcePoint" />
+            <mxPoint x="560" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-39" value="满足条件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-38">
+          <mxGeometry x="-0.5" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-40" value="不满足条件" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="356" y="610" as="sourcePoint" />
+            <mxPoint x="230" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-41" value="坐标集合的数量=1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-42" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="650" as="sourcePoint" />
+            <mxPoint x="190" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-43" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-42">
+          <mxGeometry x="-0.12" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-44" value="取该点的坐标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
