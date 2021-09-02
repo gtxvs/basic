@@ -1,28 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-08-31T07:13:31.621Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="hKm-AlBh9xollzevdwxQ" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-02T03:42:37.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="GaIriVJuyibh_1ZnTlkg" version="14.6.12" type="github">
   <diagram id="9uhrNaGmBDMQ4JzriSAf" name="Page-1">
-    <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wLORGDT3qwKsgGzUfs9r-1" value="解析坐标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="676" y="170" width="96" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="wLORGDT3qwKsgGzUfs9r-2" value="IDQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="40" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wLORGDT3qwKsgGzUfs9r-3" value="非IDQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="40" width="80" height="40" as="geometry" />
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wLORGDT3qwKsgGzUfs9r-3" target="wLORGDT3qwKsgGzUfs9r-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-3" value="非IDQ并且是首页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="521" y="50" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wLORGDT3qwKsgGzUfs9r-4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="260" y="80" as="sourcePoint" />
             <mxPoint x="260" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wLORGDT3qwKsgGzUfs9r-5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wLORGDT3qwKsgGzUfs9r-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="666" y="80" as="sourcePoint" />
-            <mxPoint x="754" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wLORGDT3qwKsgGzUfs9r-6" value="poiid数量是否为1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -59,8 +53,8 @@
         <mxCell id="wLORGDT3qwKsgGzUfs9r-15" value="&lt;span&gt;参数校验&lt;/span&gt;&lt;br&gt;&lt;span&gt;sndt_unify == 1&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="180" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wLORGDT3qwKsgGzUfs9r-18" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="510" width="80" height="40" as="geometry" />
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-18" value="退出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="590" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wLORGDT3qwKsgGzUfs9r-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -110,8 +104,8 @@
         <mxCell id="wLORGDT3qwKsgGzUfs9r-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wLORGDT3qwKsgGzUfs9r-32" target="wLORGDT3qwKsgGzUfs9r-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wLORGDT3qwKsgGzUfs9r-32" value="解析坐标:&lt;br&gt;1.是否有geo的结果 (取里面的x和y加入到坐标集合)&lt;br&gt;2.如果是rqbxy的请求，则将url串中的x,y加入到坐标集合&lt;br&gt;3.遍历poiid列表，如果里面强展现的点，则只取强展现的poiid点的坐标加入到坐标集合，如果没有强展现，则将所有的poiid点的坐标加入到集合,poiid坐标取值方法 : 优先取opendi里面的display_x和display_y，如果这两个没有则取opendi里面的x和y&lt;br&gt;4.子点坐标：(如果是强展现，则取第一个强展现poiiid，如果没有强展现，则默认取第一个poiid点)&lt;br&gt;&amp;nbsp;的typecode和他下面的所有子点的坐标，子点的坐标加入到集合，typecode后面用于查找鲁班的比例尺&lt;br&gt;5.shape坐标 : (如果是强展现，则取第一个强展现poiiid，如果没有强展现，则默认取第一个poiid点)的opendi中的shape字段，并将里面的坐标解析加入到坐标集合中&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="446" y="210" width="230" height="310" as="geometry" />
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-32" value="解析坐标:&lt;br&gt;1.是否有geo的结果,(取里面的x和y加入到坐标集合)&lt;br&gt;2.如果是rqbxy的请求，则将url串中的x,y加入到坐标集合&lt;br&gt;3.遍历poiid列表，如果里面强展现的点，则只取强展现的poiid点的坐标加入到坐标集合，如果没有强展现，则将所有的poiid点的坐标加入到集合,poiid坐标取值方法 : 优先取opendi里面的display_x和display_y，如果这两个没有则取opendi里面的x和y&lt;br&gt;4.子点坐标：(如果是强展现，则取第一个强展现poiiid，如果没有强展现，则默认取第一个poiid点)&lt;br&gt;&amp;nbsp;的typecode和他下面的所有子点的坐标，子点的坐标加入到集合，typecode后面用于查找鲁班的比例尺&lt;br&gt;5.shape坐标 : (如果是强展现，则取第一个强展现poiiid，如果没有强展现，则默认取第一个poiid点)的opendi中的shape字段，并将里面的坐标解析加入到坐标集合中&lt;br&gt;强展现生效条件 : url中的need_recommend 等于2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="170" width="240" height="330" as="geometry" />
         </mxCell>
         <mxCell id="wLORGDT3qwKsgGzUfs9r-33" value="" style="endArrow=classic;html=1;entryX=0.004;entryY=0.635;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wLORGDT3qwKsgGzUfs9r-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -122,7 +116,7 @@
         <mxCell id="wLORGDT3qwKsgGzUfs9r-36" value="如果坐标集合的点数量 &amp;gt; 1或者(如果点数量=1并且这个点是geo的结果)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="356" y="570" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wLORGDT3qwKsgGzUfs9r-38" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-38" value="" style="endArrow=classic;html=1;entryX=0.471;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wLORGDT3qwKsgGzUfs9r-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="650" as="sourcePoint" />
             <mxPoint x="560" y="730" as="targetPoint" />
@@ -153,8 +147,102 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wLORGDT3qwKsgGzUfs9r-44" value="取该点的坐标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="700" width="120" height="60" as="geometry" />
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-44" value="中心点 : 取第一个poiid的opendi坐标(优先取display_x和display_y,如果没有取x,y)当作中心点&lt;br&gt;typecode : 取第一个poiid的typecode&lt;br&gt;keywords : 如果是idq的请求，取请求串的name字段如果是非idq请求，取qr结果中的keywords字段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="680" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-46" value="根据手机像素计算最终矩形区域&lt;br&gt;typecode处理成集合(typecode,typecode前4位,typecode前2位)&lt;br&gt;遍历集合typecode集合,针对每一个typecode进行下面的处理 :&amp;nbsp;&lt;br&gt;1.typecode + keywords 查询 :&amp;nbsp; 查不到转2&lt;br&gt;2.typecode 查询 : 查不到转继续下一个&lt;br&gt;如果遍历完都没有查不到，则返回默认值200&lt;br&gt;上述步骤任一阶段如果查到比例尺则直接返回&lt;br&gt;根据上述的比例尺采用如下公式计算图面的半宽和半高&lt;br&gt;手机半宽度 : 手机像素宽/像素密度*2.54cm/2&lt;br&gt;手机半高度: 手机像素高/像素密度*2.54cm/2&lt;br&gt;图面半宽度 : 手机半宽度 * scale *180 / pi * 6378137&lt;br&gt;图面半高度 : 手机半高度 * scale * 180 / pi *&amp;nbsp; 6378137&lt;br&gt;最终最终矩形区域 : x0 = 中心点x - 图面半宽度&lt;br&gt;x1 = 中心点x + 图面半宽度&lt;br&gt;y0 = 中心点y - 图面半高度&lt;br&gt;y1 = 中新点y + 图面半高度&lt;br&gt;(x0,x1,y0,y1)即是最终区域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="56" y="844" width="268" height="322" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-47" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wLORGDT3qwKsgGzUfs9r-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="780" as="sourcePoint" />
+            <mxPoint x="240" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-48" value="传入中心点和typecode,keywords" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-47">
+          <mxGeometry x="-0.275" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-49" value="最初矩形区域&amp;nbsp; : 从坐标集合中找出最大的x0和最小的x1&lt;br&gt;最大的y0和最小的y1&lt;br&gt;把(x0,x1,y0,y1)的矩形区域扩大10%&lt;br&gt;&amp;nbsp;&lt;br&gt;然后计算中心点center_x = (x0 + x1) /2&lt;br&gt;center_y = (y0 + y1) /2&lt;br&gt;typecode就是从第一个poiiid取的&lt;br&gt;keywords : url中的keywords" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="750" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-50" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="822" as="sourcePoint" />
+            <mxPoint x="190" y="822" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-51" value="传入中心点和typecode,keywords" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-50">
+          <mxGeometry x="0.0893" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-52" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="325" y="1002" as="sourcePoint" />
+            <mxPoint x="430" y="1002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-53" value="如果是idq" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="963" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-54" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="512" y="1004.5" as="sourcePoint" />
+            <mxPoint x="572" y="1004.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-64" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-54">
+          <mxGeometry x="-0.2667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-55" value="&amp;lt;view_region&amp;gt; max(最初矩形区域 , 手机像素计算最终矩形区域) &amp;lt;/view_region&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="960" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-56" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="472" y="1044" as="sourcePoint" />
+            <mxPoint x="472" y="1074" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-65" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-56">
+          <mxGeometry x="-0.4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-57" value="&amp;lt;view_region&amp;gt;手机像素计算最终矩形区域&amp;lt;/view_region&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1075" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-58" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="610" as="sourcePoint" />
+            <mxPoint x="90" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-66" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wLORGDT3qwKsgGzUfs9r-58">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-59" value="退出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="731" y="1067" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-60" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="1005" as="sourcePoint" />
+            <mxPoint x="767" y="1065" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="767" y="1005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLORGDT3qwKsgGzUfs9r-63" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="wLORGDT3qwKsgGzUfs9r-57" target="wLORGDT3qwKsgGzUfs9r-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1116" as="sourcePoint" />
+            <mxPoint x="731" y="1083" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
